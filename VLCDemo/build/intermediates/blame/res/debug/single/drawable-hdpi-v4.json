@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_icon_audio.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\header_icon_audio.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_icon_video.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\header_icon_video.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wheel_pause.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\wheel_pause.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\preference_single_item.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\preference_single_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_submenu.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\mm_submenu.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_on1.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\radio_on1.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_unselected_color.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\list_item_unselected_color.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wheel_play.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\wheel_play.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_glow.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_pause_glow.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\voice_on.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\voice_on.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_glow.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_play_glow.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_circle.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\btn_circle.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_lock_glow.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_lock_glow.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record_end.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\record_end.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\record_start.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\record_start.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\voice_off.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\voice_off.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\increase_on.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\increase_on.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\screen_lock_off.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\screen_lock_off.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dots.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\dots.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_selected_color.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\list_item_selected_color.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\screen_shot_on.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\screen_shot_on.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\exit_play_btn.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\exit_play_btn.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\screen_shot_off.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\screen_shot_off.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\imagebutton_background.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\imagebutton_background.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_seekbar_thumb.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_seekbar_thumb.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_icon_subtitle.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\header_icon_subtitle.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_normal.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_pause_normal.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_backward_normal.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_backward_normal.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_forward_glow.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_forward_glow.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\increase_off.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\increase_off.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bookmarks.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_bookmarks.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_normal.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_play_normal.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_size_normal.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_size_normal.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_backward_glow.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_backward_glow.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grid_selector_background.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\grid_selector_background.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_icon_loupe.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\header_icon_loupe.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\list_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_size_glow.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_size_glow.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_lock.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_lock.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_forward_normal.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_forward_normal.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_pause.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\radio_pause.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\item_bg.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\item_bg.png"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\screen_lock_on.png",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\drawable-hdpi\\screen_lock_on.png"
+    }
+]

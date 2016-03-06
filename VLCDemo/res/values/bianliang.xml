@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bian3">当前数值</string>
+    <string name="bian7">监测对象 ：温度值</string>
+    <string name="bian4">当前情况：</string>
+    <string name="bian5">单位</string>
+    <string name="dan6">℃</string>
+    <string name="bian8">监测对象 ：水浸状况</string>
+    <string name="bian9">监测对象 ：烟雾状况</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/assets/IDMap.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/LocationID.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/jmdns-3.4.1.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/drawable/device.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/pingtaitest/WebServiceUtil.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="getdevlist">http://112.25.191.156:8083/appIntf/getDevList?</string>
+    <string name="getDevUrl"> http://112.25.191.156:8083/appIntf/getDevUrl?</string>
+    <string name="reverseDev">http://112.25.191.156:8083/appIntf/reverseDev?</string>
+    <string name="restartDev">http://112.25.191.156:8083/appIntf/restartDev?</string>
+    <string name="ptzAction">http://117.27.144.28:9084/appIntf/ptzAction?</string>
+    <string name="appID">201509210001</string>
+    <string name="account">18950296635</string>
+    <string name="devID">90100000734</string>
+    <string name="key">A74403C06DC7D65A2B9E9C98532384D4</string>
+</resources>
+
+ 

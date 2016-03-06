@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\anim\\fade_up.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\anim\\fade_up.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_clockwise.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\anim\\rotate_clockwise.xml"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\anim\\fade_down.xml",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\anim\\fade_down.xml"
+    }
+]

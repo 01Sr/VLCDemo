@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\raw\\record.wav",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\raw\\record.wav"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\raw\\beep.mp3",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\raw\\beep.mp3"
+    },
+    {
+        "merged": "G:\\Users\\hhp\\workspace\\VLCDemo\\build\\intermediates\\res\\merged\\debug\\raw\\paizhao.mp3",
+        "source": "G:\\Users\\hhp\\workspace\\VLCDemo\\res\\raw\\paizhao.mp3"
+    }
+]

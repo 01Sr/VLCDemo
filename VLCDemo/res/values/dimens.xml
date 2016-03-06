@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    <dimen name="TitleTextSize">16sp</dimen>
+    <dimen name="BigTextSize">24dip</dimen>
+
+    <dimen name="LoginBigSize">15sp</dimen>
+    <dimen name="DefaultTextSixe">16.0dip</dimen>
+    <dimen name="CameraNameSize">17.0sp</dimen>
+    <dimen name="DialogTitleSize">20dip</dimen>
+    <dimen name="DialogMessageSize">18dip</dimen>
+    <dimen name="CameraStatusSize">18.0dip</dimen>
+    <dimen name="DefaultSmallTextSixe">14.0dip</dimen>
+
+    <dimen name="LayoutWidth">150dip</dimen>
+
+    <dimen name="video_padding_top">66dip</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="login_text_size">15dp</dimen>
+    <dimen name="title_text_size">18dp</dimen>
+    <dimen name="tab_text_size">16dp</dimen>
+    <dimen name="button_text_size">14dp</dimen>
+</resources>

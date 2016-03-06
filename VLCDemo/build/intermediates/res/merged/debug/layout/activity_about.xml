@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  终端信息管理服务平台系统就是手机前端和后台的通信，通过手机APP可以实现获得传感器数据、开关控制权限和查看视频监控的功能。我们可以实现灯光控制，水浸烟雾报警和门窗帘的开关控制，远程视频监控，显示温湿度等多种功能。
+1.传感器实时数据显示：
+     该系统对南京邮电大学的PM2.5监测站的PM2.5与展厅中烟雾水浸等传感器进行实时监测，并且可以实时获取感知区内空气中CO2、温度、湿度、VOC、苯、CO等数据。
+2.开关控制权限：
+         在展厅场景中，本系统实现了对展厅灯、门、窗帘的控制，灯控实现的功能为远程控制灯全亮、全灭、部分亮灭。门控和窗帘设为同一个开关按钮开门的同时窗帘关闭，门关闭的同时窗帘打开。
+3.手机地图—掌中南邮
+          我们可以远程监控到摄像头可见范围内的一切动态，摄像头具有旋转、录像、静音等功能。
+" />
+
+</RelativeLayout>

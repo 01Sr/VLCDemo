@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="G:\Users\hhp\workspace\VLCDemo\assets"><file name="LocationID.txt" path="G:\Users\hhp\workspace\VLCDemo\assets\LocationID.txt"/><file name="IDMap.txt" path="G:\Users\hhp\workspace\VLCDemo\assets\IDMap.txt"/><file name="njupt_sanpailou.jpg" path="G:\Users\hhp\workspace\VLCDemo\assets\njupt_sanpailou.jpg"/></source></dataSet><dataSet config="debug"><source path="G:\Users\hhp\workspace\VLCDemo\build-types\debug\assets"/></dataSet></merger>

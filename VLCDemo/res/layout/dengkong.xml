@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="#eee">
+     <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_background"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="灯控开关"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+	 </LinearLayout>
+	 
+   		<LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"		
+            android:orientation="horizontal"  >  
+      		<Button
+                android:id="@+id/quanl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:background="@xml/select1"    
+                android:text="全亮"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                ></Button>     
+                
+                <Button
+                android:id="@+id/quanm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"          
+                android:background="@xml/select3"    
+                android:text="全灭"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                ></Button>     
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv1"
+                    />    
+	 </LinearLayout>
+
+	 <RelativeLayout
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_marginTop="14dp"
+	     android:background="@drawable/preference_single_item"
+	     android:clickable="true"
+	     android:gravity="center_vertical" >
+ 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:text="前后亮灭"
+                android:textColor="#ff0000"
+                android:textSize="20sp" />
+				     					
+   		</RelativeLayout>
+   		<LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+            android:orientation="horizontal"  >  
+      		<Button
+                android:id="@+id/qianl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"               
+                android:background="@xml/select1"    
+                android:text="前亮"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                ></Button>     
+                <Button
+                android:id="@+id/houl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:background="@xml/select2"    
+                android:text="后亮"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                ></Button>           
+	 </LinearLayout>
+
+	 <RelativeLayout
+	     android:layout_width="176dp"
+	     android:layout_height="wrap_content"
+	     android:layout_marginTop="14dp"
+	     android:background="@drawable/preference_single_item"
+	     android:clickable="true"
+	     android:gravity="center_vertical" >
+ 
+            <TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content"
+        		android:layout_centerVertical="true"
+        		android:padding="8dp" 
+        		android:text="左右"
+        		android:textSize="20sp"		
+				android:textColor="#ff0000" />   
+				   					
+   		</RelativeLayout>
+   		<LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"			
+            android:orientation="horizontal"  >  
+      		<Button
+                android:id="@+id/zuol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@xml/select1"    
+                android:text="左侧亮"
+                android:layout_marginLeft="30dp"
+                android:textSize="17sp"
+                ></Button>     
+                <Button
+                android:id="@+id/youl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@xml/select2"    
+                android:text="右侧亮"
+                android:layout_marginLeft="30dp"
+                android:textSize="17sp"
+                ></Button>        
+	 </LinearLayout>
+          
+    
+</LinearLayout>

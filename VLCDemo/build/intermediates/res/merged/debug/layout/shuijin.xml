@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/a">
+
+  <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_background"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="水浸和烟雾显示"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+			
+  <LinearLayout 
+            android:orientation="horizontal"  
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:layout_marginTop="10pt">
+
+      <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" 
+            android:text="@string/bian8" 
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+</LinearLayout>
+    <LinearLayout 
+           android:orientation="horizontal" 
+           android:layout_height="wrap_content" 
+           android:layout_width="wrap_content" 
+           android:layout_marginTop="10pt">
+
+      <TextView 
+           android:layout_height="wrap_content" 
+           android:layout_width="wrap_content" 
+           android:text="@string/bian4" 
+           android:textSize="20dp"
+           android:textColor="#000000"/>
+
+      <TextView 
+                android:text="机房环境良好
+                                                                                   无水入侵" 
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textSize="20dp"
+                android:id="@+id/textView1" 
+                android:textColor="#0000ff"
+                android:lines="2"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content">
+            </TextView> 
+</LinearLayout>
+			<LinearLayout 
+            android:orientation="horizontal"  
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content" 
+            android:layout_marginTop="10pt">
+
+      <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" 
+            android:text="@string/bian9" 
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+</LinearLayout>
+    <LinearLayout 
+           android:orientation="horizontal" 
+           android:layout_height="wrap_content" 
+           android:layout_width="wrap_content" 
+           android:layout_marginTop="10pt">
+
+      <TextView 
+           android:layout_height="wrap_content" 
+           android:layout_width="wrap_content" 
+           android:text="@string/bian4" 
+           android:textSize="20dp"
+           android:textColor="#000000"/>
+
+      <TextView 
+                android:text="机房环境良好
+                                                                                   无烟雾" 
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textSize="20dp"
+                android:id="@+id/textView2" 
+                android:textColor="#0000ff"
+                android:lines="2"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content">
+            </TextView> 
+</LinearLayout>
+   
+</LinearLayout>

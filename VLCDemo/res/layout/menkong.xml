@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/men" >
+     <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_background"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="门控and窗帘"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+	 </LinearLayout>
+	 <ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="100dp"
+	     android:src="@drawable/menguan"
+	     />
+	 <TextView
+	            android:id="@+id/tv1"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:textSize="18sp"		
+				android:textColor="#00ffff"
+				android:paddingLeft="120dp"
+				 />
+
+	 <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"		
+            android:orientation="horizontal" 
+            android:layout_marginTop="80dp" 
+            android:paddingLeft="40dp"
+            style="@style/CustomGridView"
+            >     
+            <LinearLayout 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"		
+            android:orientation="vertical" 
+            >     
+                <ImageButton
+                android:id="@+id/kai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"          
+                android:src="@drawable/dianliu"    
+                ></ImageButton> 
+                <TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:textSize="20sp"	
+        		android:text="开"	
+				android:textColor="#0000ff"
+				android:paddingLeft="30dp"
+				 />
+                 </LinearLayout>
+                 <LinearLayout 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"		
+            android:orientation="vertical"
+            android:layout_marginLeft="60dp" 
+            >     
+                <ImageButton
+                android:id="@+id/guan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"          
+                android:src="@drawable/gonglv"    
+                ></ImageButton>
+                 <TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:textSize="20sp"	
+        		android:text="关"	
+				android:textColor="#0000ff"
+				android:layout_marginLeft="30dp" 
+				 /> 
+                 </LinearLayout>        
+	 </LinearLayout>
+	 
+	
+</LinearLayout>
