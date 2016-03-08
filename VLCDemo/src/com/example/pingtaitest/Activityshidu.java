@@ -26,6 +26,7 @@ import android.graphics.Paint.Align;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
@@ -36,7 +37,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Activityshidu extends Activity {
+public class Activityshidu extends Activity implements OnClickListener {
 	int constNum = 100;
 	private Timer timer;
 	private GraphicalView chart;
@@ -48,7 +49,7 @@ public class Activityshidu extends Activity {
 	private TextView textview;
 	private TextView zhanting;
 	private TextView qilou;
-
+	LinearLayout layout1;
 	String a = null;
 	Date[] xcache = new Date[constNum];
 	int[] ycache = new int[constNum];
@@ -62,10 +63,14 @@ public class Activityshidu extends Activity {
 		zhanting = (TextView) findViewById(R.id.zhanting);
 		qilou = (TextView) findViewById(R.id.qilou);
 
-		LinearLayout layout1 = (LinearLayout) findViewById(R.id.linearlayout1);
+		layout1 = (LinearLayout) findViewById(R.id.linearlayout1);
 		// 生成图表
-		chart = ChartFactory.getTimeChartView(this, getDateDemoDataset(), getDemoRenderer(), "HH:mm:ss");
-		layout1.addView(chart);
+		View b_jifang=findViewById(R.id.b_jifang);
+		View b_zhanting=findViewById(R.id.b_zhanting);
+		View b_qilou=findViewById(R.id.b_qilou);
+		b_jifang.setOnClickListener(this);
+		b_zhanting.setOnClickListener(this);
+		b_qilou.setOnClickListener(this);
 		new Thread(new Runnable() {
 			public void run() {
 				try {// 传入用户名和密码
@@ -244,4 +249,14 @@ public class Activityshidu extends Activity {
 			getMs(key,id);
 		}
 	}
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch(v.getId()){
+		case R.id.b_jifang:new GenerateData(Activityshidu.this,layout1, 327, "湿度","机房");break;
+		case R.id.b_qilou:new GenerateData(Activityshidu.this,layout1 ,348, "湿度","七楼");break;
+		case R.id.b_zhanting:new GenerateData(Activityshidu.this,layout1, 383, "湿度","展厅");break;
+	}
+	}
+
 }

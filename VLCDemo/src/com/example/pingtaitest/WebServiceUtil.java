@@ -266,7 +266,7 @@ public class WebServiceUtil {
 	    String n1=result.getProperty(0).toString();//鎶婅繑鍥炴暟鎹被鍨嬪彉涓篠tring绫诲瀷
 	   	return n1;
 }	
-   public static String[] getSensorOnedayRecord(String arg0,int arg1,String arg2){
+   public static double[] getSensorOnedayRecord(String arg0,int arg1,String arg2){
 	    String methodName = "getSensorOnedayRecord";
 		 	SoapObject request = new SoapObject(namespace, methodName);
 		 	request.addProperty("arg0",arg0); 
@@ -287,8 +287,10 @@ public class WebServiceUtil {
 				e.printStackTrace();
 			} 
 		    SoapObject  result = (SoapObject) envelope.bodyIn;   
-		   String rtsp=result.getProperty(0).toString();
-		   Log.e("*********", result.toString());
-		   	return null;
+		   String data=result.getProperty(0).toString();
+		   OneDayInfoHandler oneDayInfoHandler=new OneDayInfoHandler(data);
+		   double[] dataSet=oneDayInfoHandler.getOneDayInfo();
+//		   Log.e("*********", result.toString().substring(result.toString().length()-40, result.toString().length()-1));
+		   	return dataSet;
    }
 }

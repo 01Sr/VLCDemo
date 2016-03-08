@@ -29,6 +29,9 @@ import android.graphics.Paint.Align;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.widget.SimpleCursorAdapter.ViewBinder;
+import android.text.Layout;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
@@ -39,7 +42,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Activitywendu extends Activity {
+public class Activitywendu extends Activity implements View.OnClickListener {
 	int constNum = 100;
 	private Timer timer;
 	private GraphicalView chart;
@@ -50,11 +53,12 @@ public class Activitywendu extends Activity {
 	private Random random = new Random();
 	private TextView textview;
 	private TextView zhanting;
-	
+	LinearLayout layout1;
 	private TextView qilou;
 	String a = null;
 	Date[] xcache = new Date[constNum];
 	int[] ycache = new int[constNum];
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -65,14 +69,28 @@ public class Activitywendu extends Activity {
 		zhanting = (TextView) findViewById(R.id.zhanting);
 		
 		qilou = (TextView) findViewById(R.id.qilou);
-		LinearLayout layout1 = (LinearLayout) findViewById(R.id.linearlayout1);
+		layout1 = (LinearLayout) findViewById(R.id.linearlayout1);
 		// 生成图表
-		
-		chart = ChartFactory.getLineChartView(this, getDateDemoDataset(), getDemoRenderer());
-		layout1.addView(chart);
+		View b_jifang=findViewById(R.id.b_jifang);
+		View b_zhanting=findViewById(R.id.b_zhanting);
+		View b_qilou=findViewById(R.id.b_qilou);
+		b_jifang.setOnClickListener(this);
+		b_zhanting.setOnClickListener(this);
+		b_qilou.setOnClickListener(this);
+
 		timer = new Timer(true);
 	}
-
+	
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch(v.getId()){
+			case R.id.b_jifang:new GenerateData(Activitywendu.this,layout1, 326, "温度","机房");break;
+			case R.id.b_qilou:new GenerateData(Activitywendu.this,layout1 ,368, "温度","七楼");break;
+			case R.id.b_zhanting:new GenerateData(Activitywendu.this,layout1, 382, "温度","展厅");break;
+		}
+	}
+	
 	TimerTask task = new TimerTask(){  
 		   
 	      public void run() {  
@@ -169,8 +187,6 @@ public class Activitywendu extends Activity {
 		renderer.setXAxisMin(0);
 		renderer.setXAxisMax(23);
 		renderer.setXLabels(23);
-		renderer.setZoomButtonsVisible(true);
-		renderer.setZoomEnabled(true);
 		renderer.setAntialiasing(true);
 		renderer.setShowLegend(false);
 		renderer.setMargins(new int[] { 10, 30, 15, 2 });// 上左下右{ 20, 30, 100, 0
@@ -215,29 +231,12 @@ public class Activitywendu extends Activity {
 		CategorySeries barSeries1=new CategorySeries("展厅");
 		CategorySeries barSeries2=new CategorySeries("机房");
 		CategorySeries barSeries3=new CategorySeries("七楼");
-		new Thread(new Runnable() {
-			
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				try {
-					WebServiceUtil.getSensorOnedayRecord(WebServiceUtil.getHd("sss", "njuptcloud"),382, "2016-03-04");
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			}
-		}).start();
-		List<XYSeries> lxy=new ArrayList<XYSeries>();
 		for (int k = 0; k < nr; k++) {
 			barSeries1.add(20 + r.nextInt() % 10);
 			barSeries2.add(20 + r.nextInt() % 10);
 			barSeries3.add(20 + r.nextInt() % 10);
 //			series.add(new Date(value + k * 1000), 20 + r.nextInt() % 10);// 初值Y轴以20为中心，X轴初值范围再次定义
 		}
-		lxy.add(barSeries1.toXYSeries());
-		lxy.add(barSeries2.toXYSeries());
-		lxy.add(barSeries3.toXYSeries());
 //		barDataset.addAllSeries(lxy);
 		barDataset.addSeries(barSeries1.toXYSeries());
 		barDataset.addSeries(barSeries2.toXYSeries());
@@ -257,4 +256,6 @@ public void onBackPressed() {
 	//关闭计时器
 	timer.cancel();
 }
+
+
 }

@@ -18,7 +18,8 @@
         		android:textSize="20sp"		
 				android:textColor="#ffffff" />       
 			</LinearLayout>
-			<RelativeLayout      				    
+			<RelativeLayout   
+			       android:id="@+id/b_zhanting"   				    
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
@@ -46,7 +47,7 @@
         </TextView>     					
    		</RelativeLayout>
         <RelativeLayout  
-            android:id="@+id/rl1"    				    
+          android:id="@+id/b_jifang"				    
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
@@ -73,7 +74,8 @@
             android:textColor="#0000ff" >
         </TextView>
    		</RelativeLayout>
-   		<RelativeLayout      				    
+   		<RelativeLayout      		
+   		       android:id="@+id/b_qilou"		    
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
